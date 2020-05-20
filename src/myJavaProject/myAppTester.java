@@ -29,7 +29,7 @@ public class myAppTester {
 			}
 
 			if(phonenum.toString().equals(quit.toString()))
-				System.out.println("Thank you for using this program! Stay safe");
+				System.out.println("Thank you for using this program! Stay safe and stay healthy");
 			else if (a==1 || phonenum.length()!=10) {
 				System.out.println("The number you entered is not 10 digit");
 				a=0;
