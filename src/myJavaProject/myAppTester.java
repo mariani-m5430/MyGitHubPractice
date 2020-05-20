@@ -27,7 +27,13 @@ public class myAppTester {
 					a=1; 
 					i=phonenum.length();}	
 			}
-
+			/*
+			 * Git now is on branch b1
+			 * from now on until switching out of branch b1
+			 * any changes occur here will be tracked in branch b1
+			 * and will not be reflected in any other branch unless b1
+			 * is merged later with that branch
+			 */
 			if(phonenum.toString().equals(quit.toString()))
 				System.out.println("Thank you for using this program! Stay safe and stay healthy");
 			else if (a==1 || phonenum.length()!=10) {
